@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node agent.js",
     "dev": "node agent.js",
-    "build": "echo \"Build complete\""
+    "build": "echo 'Build complete'"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.108.2",
