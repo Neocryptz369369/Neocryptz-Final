@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "node agent.js",
-    "dev": "node agent.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "build": "echo 'Build complete'"
   },
   "dependencies": {
