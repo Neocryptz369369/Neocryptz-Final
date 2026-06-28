@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Static files + SPA fallback
 app.use(express.static(__dirname));
-app.get('(.*)', (_req, res) => res.sendFile(path.join(__dirname, 'index.html')));
+app.get('/:path*', (_req, res) => res.sendFile(path.join(__dirname, 'index.html')));
 
 // Export for Vercel
 module.exports = app;
